@@ -4,8 +4,8 @@ import sys
 print('===== Welcome to the magic calculator =====')
 print('We got some equations here, but the operator is missing.')
 print('Can you help us?')
-for i in range(1000):
-    print('----- wave {}/1000 -----'.format(i+1))
+for i in range(100):
+    print('----- wave {}/100 -----'.format(i+1))
     rand = random.randint(0, 3)
     operator = ''
     if rand == 0:

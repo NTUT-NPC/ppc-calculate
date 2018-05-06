@@ -17,6 +17,6 @@ RUN useradd -U -m pwn
 RUN chown root:pwn /tmp/*
 RUN chmod  750 /tmp/*
 
-CMD sudo -u pwn socat tcp-l:4444,fork exec:'python3 /tmp/caculate.py'
+CMD sudo -u pwn socat -T 100 tcp-l:4444,fork exec:'python3 /tmp/caculate.py'
 
 EXPOSE 4444
