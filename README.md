@@ -3,7 +3,7 @@
 ## Requirement
 - [Docker installed](https://docs.docker.com/install/)
 - 10001/tcp opened
-## Intall
+## Install
 1. 建立 Docker 鏡像
 ```sh
 sudo docker build -t pwn .
