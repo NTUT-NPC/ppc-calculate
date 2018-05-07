@@ -1,5 +1,5 @@
 # pwn-calculate
-用 Docker 架設的基礎 pwn 題目
+用 Docker 架設的 CTF PPC 題目
 ## Requirement
 - [Docker installed](https://docs.docker.com/install/)
 - 10001/tcp opened
