@@ -32,5 +32,5 @@ for i in range(100):
     if (ans != operator):
         print('Your math is bad...')
         sys.exit()
-print("flag")
+print("NPC{Your math is totaly great!}")
 sys.exit()
